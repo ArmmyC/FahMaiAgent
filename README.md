@@ -236,16 +236,4 @@ Common variables:
 
 ## GitHub Notes
 
-Recommended repository name: `enterprise-sql-rag-agent`.
-
-This repository intentionally tracks source code, scripts, docs, and small CSV fixtures only.
-
-Ignored local artifacts include:
-
-- `data-parser/output/*.duckdb`
-- `_archive/`
-- `logs/`
-- `test_submission/`
-- Python cache folders
-
 More deployment detail lives in [docs/deployment.md](docs/deployment.md).
