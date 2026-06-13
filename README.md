@@ -1,11 +1,11 @@
-# FahMai SQL/RAG Agent API
+# Enterprise SQL/RAG Agent
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-SQL%20%2B%20RAG-fff000?style=flat-square)
 ![vLLM](https://img.shields.io/badge/vLLM-OpenAI--compatible-5a67d8?style=flat-square)
 
-FahMai is a guarded business-question answering API that combines deterministic SQL tools, DuckDB-backed retrieval, BGE-M3 embeddings, and OpenAI-compatible LLM backends. It exposes a simple HTTP contract for users to `curl` questions and receive grounded answers from the same SQL/RAG flow.
+Enterprise SQL/RAG Agent is a guarded business-question answering system that combines deterministic SQL tools, DuckDB-backed retrieval, BGE-M3 embeddings, and OpenAI-compatible LLM backends. It exposes a simple HTTP contract for users to `curl` questions and receive grounded answers from the same SQL/RAG flow.
 
 The project currently supports two generation backends:
 
@@ -235,6 +235,8 @@ Common variables:
 | `FAHMAI_ENABLE_INPUT_GUARD` | Enables the prompt-injection safety route |
 
 ## GitHub Notes
+
+Recommended repository name: `enterprise-sql-rag-agent`.
 
 This repository intentionally tracks source code, scripts, docs, and small CSV fixtures only.
 

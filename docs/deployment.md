@@ -1,4 +1,4 @@
-# FahMai Agent Deployment Bundle
+# Enterprise SQL/RAG Agent Deployment Bundle
 
 This folder contains the code used for the final guarded SQL/RAG submission pipeline.
 

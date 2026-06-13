@@ -1,6 +1,6 @@
 {
-  "name": "fahmai-sql-rag-agent-api",
-  "description": "Guarded FahMai SQL/RAG agent API with Qwen NVFP4 and ThaiLLM/Typhoon vLLM backends.",
+  "name": "enterprise-sql-rag-agent",
+  "description": "Guarded enterprise SQL/RAG agent with Qwen NVFP4 and ThaiLLM/Typhoon vLLM backends.",
   "entrypoints": {
     "api": "api_server.py",
     "batch": "data-parser/run_orchestrator_csv.py",
