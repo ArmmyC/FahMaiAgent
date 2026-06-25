@@ -269,6 +269,3 @@ Most behavior is controlled with environment variables. See [`.env.example`](./.
 - [Deployment notes](./docs/deployment.md)
 - [Environment example](./.env.example)
 
-## Naming recommendation
-
-The current name, `Enterprise-SQL-RAG-Agent`, is accurate but long. **FahMai Agent** is shorter, follows the API naming already used in the code, and still describes a guarded SQL/RAG question-answering agent.
